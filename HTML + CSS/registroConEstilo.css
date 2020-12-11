@@ -1,0 +1,118 @@
+body{
+  background-color: #f9caa7
+}
+
+
+#tituloPagina{
+  color: navy;
+  background-color: #2ab7ca;
+  font-family: Georgia, "Times New Roman", sans-serif;
+  text-align: center;
+  white-space: normal;
+  margin-left: 0px;
+  padding-left: 0em;
+}
+  #tituloPagina h1{
+    font-size: 3em;
+    display: inline;
+  }
+  #tituloPagina span.enfasis{
+    font-family: Brush Script MT;
+  }
+  #tituloPagina h2{
+    font-size: 2em;
+    word-spacing: 0.2em;
+  }
+
+#introduccion{
+  font-family: Arial;
+  text-indent: 1em;
+}
+  #introduccion span.enfasis{
+    font-variant: small-caps;
+  }
+  #introduccion p:last-of-type{
+    font-family: rockwell;
+    text-indent: 1.2em;
+  }
+
+
+#formulario_registro{
+  text-align: center;
+}
+#formulario_registro h3{
+  font-style: italic;
+  font-variant: small-caps;
+}
+  #formulario_registro:focus {
+    border: 2px solid #385D8A;
+  }
+  #formulario_registro input:required:invalid, input:focus:invalid {
+    border: 2px solid red;
+    -moz-box-shadow: none;
+  }
+  #formulario_registro input[type="number"]{
+    width: 239px;
+  }
+  #formulario_registro .opcional{
+    font-family: Courier New;
+  }
+  #opciones .prestar[label]{
+    background-color: #8ced0e
+  }
+    #opciones .prestar option:first-of-type{
+      color: rgb(50, 168, 82);
+      background-color: white;
+    }
+    #opciones .prestar option:last-of-type{
+      color: hsl(134, 71%, 21%);
+      background-color: white;
+    }
+  #opciones .preguntar{
+    background-color: #a154ab
+  }
+    #opciones .preguntar option:nth-of-type(1){
+      color: rgba(181, 112, 174, 1);
+      background-color: white;
+    }
+    #opciones .preguntar option:nth-of-type(2){
+      color: #c71eb6;
+      background-color: white;
+    }
+
+p.enfasis{
+  font-family: rockwell;
+  text-indent: 1.1em;
+  line-height: 1em;
+}
+a:link {
+  text-decoration: none;
+}
+
+#linksAcceso {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+  #linksAcceso a{
+    display: block;
+    background-color: #751e0d;;
+    width: 120px;
+    color: #FFFFFF;
+    padding: 40px;
+    text-align: center;
+    float: left;
+  }
+  #linksAcceso a:hover{
+    background-color: #f7584d;
+  }
+
+.aviso{
+  text-decoration: underline;
+  letter-spacing: 0.2em;
+}
+.linkPolicia:hover {
+  color: #95B3D7;
+}
+
+/* Gracias por ver mi página ;) */

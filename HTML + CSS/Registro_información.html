@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="registroConEstilo.css">
+    <title> Registro oficial </title>
+  </head>
+  <body>
+    <header id="tituloPagina">
+      <h1> Registro a la página de fans de <span class="enfasis"> PROGRAMACIÓN </span> </h1>
+      <h2> Para todos aquellos que aman esta profesión </h2>
+    </header>
+
+    <aside id="introduccion">
+      <p>
+        <strong> ¡<span class="enfasis">Bienvenido</span> al registro oficial para todos los fans de programación! </strong>
+        Al registrarse, podrá comentar en nuestro foro, charlar con otros usuarios, ¡y muchas cosas más!
+      </p>
+      <p>
+         Si quiere unirse y contactarse con todos los que amamos esta profesión, por favor registrese aquí.
+      </p>
+    </aside>
+
+    <form id="formulario_registro" action="www.FansDeProgramación.com" method="post">
+      <h3> Crear un nuevo usuario </h3>
+      <p> Ingrese su nombre de usuario: </p>
+      <input type="text" class="nombreUsuario" name="nombre_del_usuario" placeholder="Nombre (entre 6 y 14 caracteres)" minlength="6" maxlength="14" size="30" autofocus required /> <br />
+      <p> Ingrese su contraseña: </p>
+      <input type="password" class="contraseñaUsario" name="contraseña_del_usuario" placeholder="Contraseña (entre 5 y 12 caracteres)" minlength="5" maxlength="12" size="30" required /> <br />
+      <p> Confirme su contraseña: </p>
+      <input type="password" class="confirmacionUsuario" name="confirmacion_del_usuario" placeholder="Confirmación" minlength="5" maxlength="12" size="30" required /> <br />
+      <p> Ingrese su E-Mail: </p>
+      <input type="email" class="emailUsuario" name="email_del_usuario" placeholder="mi.mail@gmail.com" size="30" required /> <br />
+      <p> Ingrese su edad <span class="opcional"> (opcional) </span>: </p>
+      <input type="number" name="edad_usuario" placeholder="Edad" min="3" max="110" /> <br />
+      <p> ¿Qué espera de nuestra página? <span class="opcional"> (opcional) </span> </p>
+      <select id="opciones">
+        <optgroup class="prestar" label="Prestar Ayuda">
+          <option value="resolver_dudas"> Responder a las dudas que surgan del grupo </option>
+          <option value="mentorear"> Encontrar gente a la cual guiar en su aprendizaje </option>
+        </optgroup>
+        <optgroup class="preguntar" label="Preguntar Dudas">
+          <option value="hacer_preguntas"> Hacer preguntas puntuales sobre cierto temas </option>
+          <option value="pedir_enseñanza"> Pedir guías sobre temas generales (lenguajes, etc.) </option>
+        </optgroup>
+      </select> <br /> <br />
+      <input type="submit" value="Registrarse"> <br /> <br />
+    </form>
+
+    <footer>
+      <p class="enfasis"> Una vez enviado el registro, verifique su e-mail para ver si llego la confimación. </p> <br />
+      <ul id="linksAcceso">
+        <li> <a href="estaPaginaNoExiste.com"> Inicio </a> </li>
+        <li> <a href="estaPaginaNoExiste.com"> Foro </a> </li>
+        <li> <a href="estaPaginaNoExiste.com"> Registrarse </a> </li>
+        <li> <a href="estaPaginaNoExiste.com"> Contacto </a> </li>
+      </ul>
+      <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+      <p>
+        <span class="aviso">AVISO</span>: En caso de no haberle llegado ningún mail, por favor comuniquese con las autoridades
+        <a class="linkPolicia" href="https://www.policiadelaciudad.gob.ar/" target="_blank"> haciendo click aquí </a>
+      </p>
+    </footer>
+  </body>
+</html>
