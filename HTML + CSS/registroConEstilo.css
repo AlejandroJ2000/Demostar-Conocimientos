@@ -1,8 +1,9 @@
+/* Color de Fondo de toda la página */
 body{
   background-color: #f9caa7
 }
 
-
+/* Lista de Navegación y Títulos del Encabezado */
 #tituloPagina{
   color: navy;
   background-color: #2ab7ca;
@@ -24,6 +25,7 @@ body{
     word-spacing: 0.2em;
   }
 
+/*Introducción con información previa al registro */
 #introduccion{
   font-family: Arial;
   text-indent: 1em;
@@ -36,7 +38,7 @@ body{
     text-indent: 1.2em;
   }
 
-
+/* Formulario */
 #formulario_registro{
   text-align: center;
 }
@@ -80,6 +82,7 @@ body{
       background-color: white;
     }
 
+/* Aclaraciones */
 p.enfasis{
   font-family: rockwell;
   text-indent: 1.1em;
