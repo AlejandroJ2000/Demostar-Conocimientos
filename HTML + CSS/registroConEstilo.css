@@ -6,7 +6,28 @@ a:link {
   text-decoration: none;
 }
 
-/* Lista de Navegación y Títulos del Encabezado */
+/* Lista de Navegación */
+#linksAcceso {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+  #linksAcceso li{
+    display: inline;
+  }
+  #linksAcceso a{
+    background-color: #751e0d;;
+    width: 120px;
+    color: #FFFFFF;
+    padding: 40px;
+    float: none;
+  }
+  #linksAcceso a:hover{
+    background-color: #f7584d;
+  }
+
+/* Títulos del Encabezado */
 #tituloPagina{
   color: navy;
   background-color: #2ab7ca;
@@ -91,25 +112,6 @@ p.enfasis{
   text-indent: 1.1em;
   line-height: 1em;
 }
-
-#linksAcceso {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-}
-  #linksAcceso a{
-    display: block;
-    background-color: #751e0d;;
-    width: 120px;
-    color: #FFFFFF;
-    padding: 40px;
-    text-align: center;
-    float: left;
-  }
-  #linksAcceso a:hover{
-    background-color: #f7584d;
-  }
-
 .aviso{
   text-decoration: underline;
   letter-spacing: 0.2em;
