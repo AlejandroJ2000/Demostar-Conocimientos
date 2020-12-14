@@ -1,6 +1,9 @@
-/* Color de Fondo de toda la página */
+/* Color de Fondo de toda la página y otras aclaraciones generales */
 body{
   background-color: #f9caa7
+}
+a:link {
+  text-decoration: none;
 }
 
 /* Lista de Navegación y Títulos del Encabezado */
@@ -87,9 +90,6 @@ p.enfasis{
   font-family: rockwell;
   text-indent: 1.1em;
   line-height: 1em;
-}
-a:link {
-  text-decoration: none;
 }
 
 #linksAcceso {
