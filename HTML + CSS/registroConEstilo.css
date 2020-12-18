@@ -17,10 +17,13 @@ a:link {
     display: inline;
   }
   #linksAcceso a{
-    background-color: #751e0d;;
-    width: 120px;
+    background-color: #751e0d;
     color: #FFFFFF;
-    padding: 40px;
+    padding-top: 37px;
+    padding-left: 105.9px;
+    padding-right: 105.9px;
+    padding-bottom: 25px;
+    font-size: 20px;
     float: none;
   }
   #linksAcceso a:hover{
@@ -34,8 +37,7 @@ a:link {
   font-family: Georgia, "Times New Roman", sans-serif;
   text-align: center;
   white-space: normal;
-  margin-left: 0px;
-  padding-left: 0em;
+  margin-top: -12px;
 }
   #tituloPagina h1{
     font-size: 3em;
