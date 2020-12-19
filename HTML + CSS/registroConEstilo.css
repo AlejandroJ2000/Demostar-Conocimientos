@@ -19,10 +19,11 @@ a:link {
   #linksAcceso a{
     background-color: #751e0d;
     color: #FFFFFF;
+    border: 1px solid black;
     padding-top: 37px;
-    padding-left: 105.9px;
-    padding-right: 105.9px;
-    padding-bottom: 25px;
+    padding-left: 104.9px;
+    padding-right: 104.9px;
+    padding-bottom: 20px;
     font-size: 20px;
     float: none;
   }
@@ -37,7 +38,8 @@ a:link {
   font-family: Georgia, "Times New Roman", sans-serif;
   text-align: center;
   white-space: normal;
-  margin-top: -12px;
+  margin-top: -15.8px;
+  margin-bottom: -5px;
 }
   #tituloPagina h1{
     font-size: 3em;
@@ -47,6 +49,7 @@ a:link {
     font-family: Brush Script MT;
   }
   #tituloPagina h2{
+    margin-top: 5px;
     font-size: 2em;
     word-spacing: 0.2em;
   }
@@ -71,6 +74,7 @@ a:link {
 #formulario_registro h3{
   font-style: italic;
   font-variant: small-caps;
+  margin-bottom: -5px;
 }
   #formulario_registro:focus {
     border: 2px solid #385D8A;
