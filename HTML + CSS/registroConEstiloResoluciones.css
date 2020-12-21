@@ -1,4 +1,4 @@
-/* Tabla de Navegación para PC */
+/* Tabla de Navegación para PC con Pantalla Grande */
 @media screen and (min-width: 1440px){
   #linksAcceso {
     list-style-type: none;
@@ -25,6 +25,7 @@
     }
 }
 
+/* Tabla de Navegación para PC con Pantalla Chica */
 @media screen and (min-width: 1200px) and (max-width: 1439px){
   #linksAcceso {
     list-style-type: none;
@@ -51,6 +52,7 @@
     }
 }
 
+/* Tabla de Navegación para iPad Pro */
 @media screen and (min-width: 1024px) and (max-width: 1199px){
   #linksAcceso {
     list-style-type: none;
@@ -77,6 +79,7 @@
     }
 }
 
+/* Tabla de Navegación para iPad */
 @media screen and (min-width: 768px) and (max-width: 1023px){
   #linksAcceso {
     list-style-type: none;
@@ -92,8 +95,8 @@
       color: #FFFFFF;
       border: 1px solid black;
       padding-top: 37px;
-      padding-left: 39.7px;
-      padding-right: 39.7px;
+      padding-left: 39.3px;
+      padding-right: 39.3px;
       padding-bottom: 20px;
       font-size: 20px;
       float: none;
@@ -103,6 +106,7 @@
     }
   }
 
+/* Tabla de Navegación para Surface Duo */
 @media screen and (min-width: 540px) and (max-width: 750px){
   #linksAcceso {
     list-style-type: none;
@@ -129,6 +133,7 @@
     }
 }
 
+/* Tabla de Navegación para iPhone 6,7,8 Plus; Pixel 2 y Pixel 2 XL */
 @media screen and (min-width: 411px) and (max-width: 539px){
   #linksAcceso {
     list-style-type: none;
