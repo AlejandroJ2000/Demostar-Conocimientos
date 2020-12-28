@@ -1,14 +1,5 @@
 /* Tabla de Navegación para PC con Pantalla Grande */
 @media screen and (min-width: 1440px){
-  #linksAcceso {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-  }
-    #linksAcceso li{
-      display: inline;
-    }
     #linksAcceso a{
       background-color: #751e0d;
       color: #FFFFFF;
@@ -20,22 +11,10 @@
       font-size: 20px;
       float: none;
     }
-    #linksAcceso a:hover{
-      background-color: #f7584d;
-    }
 }
 
 /* Tabla de Navegación para PC con Pantalla Chica */
 @media screen and (min-width: 1200px) and (max-width: 1439px){
-  #linksAcceso {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-  }
-    #linksAcceso li{
-      display: inline;
-    }
     #linksAcceso a{
       background-color: #751e0d;
       color: #FFFFFF;
@@ -47,22 +26,10 @@
       font-size: 20px;
       float: none;
     }
-    #linksAcceso a:hover{
-      background-color: #f7584d;
-    }
 }
 
 /* Tabla de Navegación para iPad Pro */
 @media screen and (min-width: 1024px) and (max-width: 1199px){
-  #linksAcceso {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-  }
-    #linksAcceso li{
-      display: inline;
-    }
     #linksAcceso a{
       background-color: #751e0d;
       color: #FFFFFF;
@@ -74,22 +41,10 @@
       font-size: 20px;
       float: none;
     }
-    #linksAcceso a:hover{
-      background-color: #f7584d;
-    }
 }
 
 /* Tabla de Navegación para iPad */
 @media screen and (min-width: 768px) and (max-width: 1023px){
-  #linksAcceso {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-  }
-    #linksAcceso li{
-      display: inline;
-    }
     #linksAcceso a{
       background-color: #751e0d;
       color: #FFFFFF;
@@ -101,22 +56,10 @@
       font-size: 20px;
       float: none;
     }
-    #linksAcceso a:hover{
-      background-color: #f7584d;
-    }
   }
 
 /* Tabla de Navegación para Surface Duo */
 @media screen and (min-width: 540px) and (max-width: 750px){
-  #linksAcceso {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-  }
-    #linksAcceso li{
-      display: inline;
-    }
     #linksAcceso a{
       background-color: #751e0d;
       color: #FFFFFF;
@@ -128,22 +71,10 @@
       font-size: 20px;
       float: none;
     }
-    #linksAcceso a:hover{
-      background-color: #f7584d;
-    }
 }
 
 /* Tabla de Navegación para iPhone 6,7,8 Plus; Pixel 2 y Pixel 2 XL */
 @media screen and (min-width: 411px) and (max-width: 539px){
-  #linksAcceso {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-  }
-    #linksAcceso li{
-      display: inline;
-    }
     #linksAcceso a{
       background-color: #751e0d;
       color: #FFFFFF;
@@ -155,22 +86,10 @@
       font-size: 20px;
       float: none;
     }
-    #linksAcceso a:hover{
-      background-color: #f7584d;
-    }
 }
 
 /* Tabla de Navegación para iPhone 6,7,8 y iPhone X */
 @media screen and (min-width: 375px) and (max-width: 410px){
-  #linksAcceso {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-  }
-    #linksAcceso li{
-      display: inline;
-    }
     #linksAcceso a{
       background-color: #751e0d;
       color: #FFFFFF;
@@ -181,9 +100,6 @@
       padding-bottom: 20px;
       font-size: 20px;
       float: none;
-    }
-    #linksAcceso a:hover{
-      background-color: #f7584d;
     }
   span.enfasis{
     font-size: 45px;
