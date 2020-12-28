@@ -16,6 +16,13 @@ a:link {
   #linksAcceso li{
     display: inline;
   }
+  #linksAcceso a{
+    background-color: #751e0d;
+    color: #FFFFFF;
+    border: 1px solid black;
+    font-size: 20px;
+    float: none;
+  }
   #linksAcceso a:hover{
     background-color: #f7584d;
   }
