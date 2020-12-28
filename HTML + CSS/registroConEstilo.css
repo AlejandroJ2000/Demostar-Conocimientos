@@ -6,6 +6,20 @@ a:link {
   text-decoration: none;
 }
 
+/* Tabla de Navegación */
+#linksAcceso {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+  #linksAcceso li{
+    display: inline;
+  }
+  #linksAcceso a:hover{
+    background-color: #f7584d;
+  }
+
 /* Títulos del Encabezado */
 #tituloPagina{
   color: navy;
