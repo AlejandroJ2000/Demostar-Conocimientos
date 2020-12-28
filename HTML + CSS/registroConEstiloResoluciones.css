@@ -1,107 +1,73 @@
 /* Tabla de Navegación para PC con Pantalla Grande */
 @media screen and (min-width: 1440px){
     #linksAcceso a{
-      background-color: #751e0d;
-      color: #FFFFFF;
-      border: 1px solid black;
       padding-top: 37px;
       padding-left: 104.9px;
       padding-right: 104.9px;
       padding-bottom: 20px;
-      font-size: 20px;
-      float: none;
     }
 }
 
 /* Tabla de Navegación para PC con Pantalla Chica */
 @media screen and (min-width: 1200px) and (max-width: 1439px){
     #linksAcceso a{
-      background-color: #751e0d;
-      color: #FFFFFF;
-      border: 1px solid black;
       padding-top: 37px;
       padding-left: 82.7px;
       padding-right: 82.7px;
       padding-bottom: 20px;
-      font-size: 20px;
-      float: none;
     }
 }
 
 /* Tabla de Navegación para iPad Pro */
 @media screen and (min-width: 1024px) and (max-width: 1199px){
     #linksAcceso a{
-      background-color: #751e0d;
-      color: #FFFFFF;
-      border: 1px solid black;
       padding-top: 37px;
       padding-left: 65px;
       padding-right: 65px;
       padding-bottom: 20px;
-      font-size: 20px;
-      float: none;
     }
 }
 
 /* Tabla de Navegación para iPad */
 @media screen and (min-width: 768px) and (max-width: 1023px){
     #linksAcceso a{
-      background-color: #751e0d;
-      color: #FFFFFF;
-      border: 1px solid black;
       padding-top: 37px;
       padding-left: 39.3px;
       padding-right: 39.3px;
       padding-bottom: 20px;
-      font-size: 20px;
-      float: none;
     }
   }
 
 /* Tabla de Navegación para Surface Duo */
 @media screen and (min-width: 540px) and (max-width: 750px){
     #linksAcceso a{
-      background-color: #751e0d;
-      color: #FFFFFF;
-      border: 1px solid black;
       padding-top: 37px;
       padding-left: 16.7px;
       padding-right: 16.7px;
       padding-bottom: 20px;
-      font-size: 20px;
-      float: none;
     }
 }
 
 /* Tabla de Navegación para iPhone 6,7,8 Plus; Pixel 2 y Pixel 2 XL */
 @media screen and (min-width: 411px) and (max-width: 539px){
     #linksAcceso a{
-      background-color: #751e0d;
-      color: #FFFFFF;
-      border: 1px solid black;
       padding-top: 37px;
       padding-left: 3.8px;
       padding-right: 3.8px;
       padding-bottom: 20px;
-      font-size: 20px;
-      float: none;
     }
 }
 
 /* Tabla de Navegación para iPhone 6,7,8 y iPhone X */
 @media screen and (min-width: 375px) and (max-width: 410px){
     #linksAcceso a{
-      background-color: #751e0d;
-      color: #FFFFFF;
-      border: 1px solid black;
       padding-top: 37px;
       padding-left: -1px;
       padding-right: -1px;
       padding-bottom: 20px;
-      font-size: 20px;
-      float: none;
     }
   span.enfasis{
     font-size: 45px;
   }
 }
+
