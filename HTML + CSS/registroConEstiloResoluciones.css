@@ -159,3 +159,33 @@
       background-color: #f7584d;
     }
 }
+
+/* Tabla de Navegación para iPhone 6,7,8 y iPhone X */
+@media screen and (min-width: 375px) and (max-width: 410px){
+  #linksAcceso {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+    #linksAcceso li{
+      display: inline;
+    }
+    #linksAcceso a{
+      background-color: #751e0d;
+      color: #FFFFFF;
+      border: 1px solid black;
+      padding-top: 37px;
+      padding-left: -1px;
+      padding-right: -1px;
+      padding-bottom: 20px;
+      font-size: 20px;
+      float: none;
+    }
+    #linksAcceso a:hover{
+      background-color: #f7584d;
+    }
+  span.enfasis{
+    font-size: 45px;
+  }
+}
