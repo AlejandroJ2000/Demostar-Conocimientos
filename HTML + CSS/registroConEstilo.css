@@ -96,7 +96,7 @@ a:link {
       color: hsl(134, 71%, 21%);
       background-color: white;
     }
-  #opciones .preguntar{
+  #opciones .preguntar[label="Preguntar Dudas"]{
     background-color: #a154ab
   }
     #opciones .preguntar option:nth-of-type(1){
