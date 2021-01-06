@@ -59,11 +59,16 @@ a:link {
 
 /*Introducción con información previa al registro */
 #introduccion{
-  font-family: Arial;
   text-indent: 1em;
 }
+  #introduccion p:first-of-type{
+    font-family: 'Pirata One', cursive;
+    font-size: 1.3em;
+    line-height: 0.5em;
+  }
   #introduccion span.enfasis{
     font-variant: small-caps;
+    font-size: 1.5em;
   }
   #introduccion p:last-of-type{
     font-family: rockwell;
