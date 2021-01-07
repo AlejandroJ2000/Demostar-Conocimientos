@@ -127,6 +127,7 @@ p.enfasis{
 .aviso{
   text-decoration: underline;
   letter-spacing: 0.2em;
+  text-shadow: 2px 2px 7px #0447b8;
 }
 .linkPolicia:hover {
   color: #95B3D7;
