@@ -45,6 +45,7 @@ a:link {
   #tituloPagina h1{
     font-size: 3em;
     display: inline;
+    letter-spacing: 0.04em;
   }
   #tituloPagina span.enfasis{
     font-family: Brush Script MT;
