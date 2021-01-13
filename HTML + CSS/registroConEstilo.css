@@ -40,7 +40,7 @@ a:link {
   text-align: center;
   white-space: normal;
   margin-top: -15.8px;
-  margin-bottom: -5px;
+  margin-bottom: -12px;
 }
   #tituloPagina h1{
     font-size: 3em;
@@ -72,6 +72,7 @@ a:link {
   #introduccion p:last-of-type{
     font-family: rockwell;
     text-indent: 1.2em;
+    margin-top: -15px;
   }
 
 /* Formulario */
