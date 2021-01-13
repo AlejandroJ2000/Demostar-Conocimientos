@@ -1,5 +1,6 @@
 /* Bordes y colores de fondo de toda la página y otras aclaraciones generales */
 *{
+  box-sizing: border-box;
   margin-left: 0px;
   margin-right: 0px;
 }
@@ -9,7 +10,6 @@ body{
 a:link {
   text-decoration: none;
 }
-
 
 /* Tabla de Navegación */
 #linksAcceso {
@@ -40,7 +40,7 @@ a:link {
   text-align: center;
   white-space: normal;
   margin-top: -15.8px;
-  margin-bottom: -12px;
+  margin-bottom: -15px;
 }
   #tituloPagina h1{
     font-size: 3em;
@@ -63,7 +63,7 @@ a:link {
   #introduccion p:first-of-type{
     font-family: 'Pirata One', cursive;
     font-size: 1.3em;
-    line-height: 0.5em;
+    line-height: 1.2em;
   }
   #introduccion span.enfasis{
     font-variant: small-caps;
