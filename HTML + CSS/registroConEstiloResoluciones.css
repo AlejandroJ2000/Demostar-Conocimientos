@@ -15,7 +15,7 @@
 /* Tabla de Navegación para iPad Pro */
 @media screen and (min-width: 1024px) and (max-width: 1199px){
     #linksAcceso a{
-      padding: 37px 66.7px 20 66.7px;
+      padding: 37px 66.7px 20px 66.7px;
     }
 }
 
