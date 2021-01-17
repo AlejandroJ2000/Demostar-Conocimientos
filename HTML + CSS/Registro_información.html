@@ -5,22 +5,24 @@
     <meta name="description" content="Registro a la página de fans de programación.
      Registrese para poder usar nuestro foro y hablar con programadores de todo el mundo." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="registroConEstilo.css">
-    <link rel="stylesheet" href="registroConEstiloResoluciones.css">
+    <link rel="stylesheet" href="registroConEstilo.css" />
+    <link rel="stylesheet" href="registroConEstiloResoluciones.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/00d8c2c0cc.js" crossorigin="anonymous"></script>
     <title> Registro oficial </title>
   </head>
   <body>
     <nav>
-      <ul id="linksAcceso">
-          <li> <a href="estaPaginaNoExiste.com"> Inicio </a> </li>
-          <li> <a href="estaPaginaNoExiste.com"> Foro </a> </li>
-          <li> <a href="estaPaginaNoExiste.com"> Tutoriales </a> </li>
-          <li> <a href="estaPaginaNoExiste.com"> Registrarse </a> </li>
-          <li> <a href="estaPaginaNoExiste.com"> Contacto </a> </li>
+      <ul class="linksAcceso">
+        <li> <a href="estaPaginaNoExiste.com"> Inicio </a> </li>
+        <li> <a href="estaPaginaNoExiste.com"> Foro </a> </li>
+        <li> <a href="estaPaginaNoExiste.com"> Tutoriales </a> </li>
+        <li> <a href="estaPaginaNoExiste.com"> Registrarse </a> </li>
+        <li> <a href="estaPaginaNoExiste.com"> Contacto </a> </li>
       </ul>
     </nav>
+    <br /> <br />
     <header id="tituloPagina">
       <h1> Registro a la página de fans de <span class="enfasis"> PROGRAMACIÓN </span> </h1>
       <h2> Para todos aquellos que aman esta profesión </h2>
@@ -59,16 +61,25 @@
           <option value="pedir_enseñanza"> Pedir guías sobre temas generales (lenguajes, etc.) </option>
         </optgroup>
       </select> <br /> <br />
-      <input type="submit" value="Registrarse"> <br /> <br />
+      <input type="submit" value="Registrarse" class="boton"> <br /> <br />
     </form>
 
-    <footer>
-      <p class="enfasis"> Una vez enviado el registro, verifique su e-mail para ver si llego la confimación. </p> <br />
-      <br /> <br />
+    <footer id="extra">
+      <p class="enfasis"> Una vez enviado el registro, verifique su e-mail para ver si llego la confimación. </p>
+      <ul class="publicidad">
+        <h3> Publicidad: </h3>
+        <li class="publicidad-lista"> <a> <i class="fas fa-futbol" class="futbolin"></i> Futbolín S.A. </a> </li>
+        <li class="publicidad-lista"> <a> <i class="fas fa-blender" class="fabrimundo"></i> Fabrimundo </a> </li>
+        <li class="publicidad-lista"> <a> <i class="fas fa-coffee" class="cafe"></i> Café Gimenez </a> </li>
+        <li class="publicidad-lista"> <a> <i class="fab fa-playstation" class="play"></i> Playstation 5 </a> </li>
+        <input type="submit" value="Apartar" class="dismiss"> 
+      </ul>
+      <br />
       <p>
         <span class="aviso">AVISO</span>: En caso de no haberle llegado ningún mail, por favor comuniquese con las autoridades
         <a class="linkPolicia" href="https://www.policiadelaciudad.gob.ar/" target="_blank"> haciendo click aquí </a>
       </p>
     </footer>
+    <br />
   </body>
 </html>
