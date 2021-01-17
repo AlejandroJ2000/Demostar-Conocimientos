@@ -10,25 +10,28 @@ body{
 a:link {
   text-decoration: none;
 }
+ul {
+  list-style-type: none;
+}
 
 /* Tabla de Navegación */
-#linksAcceso {
-  list-style-type: none;
+.linksAcceso {
   margin: 0px;
   padding: 0px;
   text-align: center;
+  position: fixed;
 }
-  #linksAcceso li{
+  .linksAcceso li{
     display: inline;
   }
-  #linksAcceso a{
+  .linksAcceso a{
     background-color: #751e0d;
     color: #FFFFFF;
     border: 1px solid black;
     font-size: 20px;
     float: none;
   }
-  #linksAcceso a:hover{
+  .linksAcceso a:hover{
     background-color: #f7584d;
   }
 
@@ -39,7 +42,7 @@ a:link {
   font-family: Georgia, "Times New Roman", sans-serif;
   text-align: center;
   white-space: normal;
-  margin-top: -15.8px;
+  margin-top: 2.3px;
   margin-bottom: -15px;
 }
   #tituloPagina h1{
@@ -120,19 +123,54 @@ a:link {
       background-color: white;
     }
 
-/* Aclaraciones */
-p.enfasis{
-  font-family: rockwell;
-  text-indent: 1.1em;
-  line-height: 1em;
+/* Aclaraciones y Publicidad */
+#extra{
+  margin: 0px;
+  padding: 0px;
 }
-.aviso{
-  text-decoration: underline;
-  letter-spacing: 0.2em;
-  text-shadow: 2px 2px 7px #0447b8;
-}
-.linkPolicia:hover {
-  color: #95B3D7;
-}
+  p.enfasis{
+    font-family: rockwell;
+    text-indent: 1.1em;
+    line-height: 1em;
+  }
+  .aviso{
+    text-decoration: underline;
+    letter-spacing: 0.2em;
+    text-shadow: 2px 2px 7px #0447b8;
+  }
+  .linkPolicia{
+    font-size: 100%;
+  }
+  .linkPolicia:hover {
+    color: #95B3D7;
+  }
+  .publicidad {
+    background-color: #e3ce88;
+    position: fixed;
+    margin-top: 21px;
+  }
+    .publicidad h3{
+      margin-bottom: -0.01px;
+      margin-left: -25px;
+      display: inline;
+    }
+    .publicidad li{
+      display: inline-block;
+    }
+    .publicidad li, a{
+      text-align: center;
+      width: 19.29em;
+      cursor: pointer;
+    }
+    .publicidad-lista a:hover{
+      color: #848c88;
+      font-size: 115%;
+    }
+    a, i{
+      font-size: 125%;
+      }
+      i{
+        color: blue;
+      }
 
 /* Gracias por ver mi página ;) */
