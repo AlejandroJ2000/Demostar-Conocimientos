@@ -1,49 +1,49 @@
 /* Tabla de Navegación para PC con Pantalla Grande */
 @media screen and (min-width: 1440px){
-    #linksAcceso a{
-      padding: 37px 106.5px 20px 106.5px;
+    .linksAcceso a{
+      padding: 37px 106.5px 15px 106.5px;
     }
 }
 
 /* Tabla de Navegación para PC con Pantalla Chica */
 @media screen and (min-width: 1200px) and (max-width: 1439px){
-    #linksAcceso a{
-      padding: 37px 84.3px 20px 84.3px;
+    .linksAcceso a{
+      padding: 37px 84.3px 15px 84.3px;
     }
 }
 
 /* Tabla de Navegación para iPad Pro */
 @media screen and (min-width: 1024px) and (max-width: 1199px){
-    #linksAcceso a{
-      padding: 37px 66.7px 20px 66.7px;
+    .linksAcceso a{
+      padding: 37px 66.7px 15px 66.7px;
     }
 }
 
 /* Tabla de Navegación para iPad */
 @media screen and (min-width: 768px) and (max-width: 1023px){
-    #linksAcceso a{
-      padding: 37px 41.1px 20px 41.1px;
+    .linksAcceso a{
+      padding: 37px 41.1px 15px 41.1px;
     }
   }
 
 /* Tabla de Navegación para Surface Duo */
 @media screen and (min-width: 540px) and (max-width: 750px){
-    #linksAcceso a{
-      padding: 37px 18.3px 20px 18.3px;
+    .linksAcceso a{
+      padding: 37px 18.3px 15px 18.3px;
     }
 }
 
 /* Tabla de Navegación para iPhone 6,7,8 Plus; Pixel 2 y Pixel 2 XL */
 @media screen and (min-width: 411px) and (max-width: 539px){
-    #linksAcceso a{
-      padding: 37px 5.4px 20px 5.4px;
+    .linksAcceso a{
+      padding: 37px 5.4px 15px 5.4px;
     }
 }
 
 /* Tabla de Navegación para iPhone 6,7,8 y iPhone X */
 @media screen and (min-width: 375px) and (max-width: 410px){
-    #linksAcceso a{
-      padding: 37px 1.8px 20px 1.8px;
+    linksAcceso a{
+      padding: 37px 1.8px 15px 1.8px;
     }
   span.enfasis{
     font-size: 45px;
