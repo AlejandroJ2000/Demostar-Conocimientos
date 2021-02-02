@@ -65,6 +65,7 @@ img {
 /*Introducción con información previa al registro */
 #introduccion{
   text-indent: 1em;
+  margin-bottom: -1.5em;
 }
   #introduccion p:first-of-type{
     font-family: 'Pirata One', cursive;
@@ -82,66 +83,104 @@ img {
   }
 
 /* Formulario */
-#formulario_registro{
-  text-align: center;
+h3{
+   font-style: italic;
+   font-variant: small-caps;
+   text-align: center;
+   font-size: 2em;
+ }
+#formulario{
+  height: 590px;
+  padding-left: 9em;
+  margin-top: -1.5em;
+  margin-right: 12em;
+  margin-left: 17em;
+  display: flex;
+  justify-content: space-around;
+  background-color: #0a64c4;
 }
-#formulario_registro h3{
-  font-style: italic;
-  font-variant: small-caps;
-  margin-bottom: -5px;
-}
-  #formulario_registro input:focus, input:hover{
-    background-color: #f7eeed;
+  #formulario_registro{
+    text-align: center;
+    margin-left: -8em;
   }
-  #formulario_registro input:required:invalid, input:focus:invalid {
-    border: 2px solid red;
-    -moz-box-shadow: none;
-  }
-  #formulario_registro input[type="number"]{
-    width: 239px;
-  }
-  #formulario_registro .opcional{
-    font-family: Courier New;
-  }
-  #opciones .prestar[label]{
-    background-color: #8ced0e
-  }
-    #opciones .prestar option:first-of-type{
-      color: rgb(50, 168, 82);
-      background-color: white;
+    #formulario_registro p{
+      font-size: 1.1em;
     }
-    #opciones .prestar option:last-of-type{
-      color: hsl(134, 71%, 21%);
-      background-color: white;
+    #formulario_registro input:required{
+      width: 25em;
     }
-  #opciones .preguntar[label="Preguntar Dudas"]{
-    background-color: #a154ab
-  }
-    #opciones .preguntar option:nth-of-type(1){
-      color: rgba(181, 112, 174, 1);
-      background-color: white;
+    #formulario_registro input:focus, input:hover{
+      background-color: #f7eeed;
     }
-    #opciones .preguntar option:nth-of-type(2){
-      color: #c71eb6;
-      background-color: white;
+    #formulario_registro input:required:invalid, input:focus:invalid {
+      border: 2px solid red;
+      -moz-box-shadow: none;
     }
-    p.enfasis{
-      font-family: rockwell;
-      text-indent: 1.1em;
-      line-height: 1em;
-      text-align: left;
+    .nombreUsuario, .contraseñaUsario, .confirmacionUsuario, .emailUsuario{
+      height: 2.1em;
     }
-    p.enfasis{
-      font-family: rockwell;
-      text-indent: 1.1em;
-      line-height: 1em;
-      text-align: left;
+    #formulario_registro input[type="number"]{
+      width: 18em;
+      height: 2.1em;
     }
-    .aviso{
-      text-decoration: underline;
-      letter-spacing: 0.2em;
-      text-shadow: 2px 2px 7px #0447b8;
+    #formulario_registro .opcional{
+      font-family: Courier New;
     }
+    #opciones .prestar[label]{
+      background-color: #8ced0e
+    }
+      #opciones .prestar option:first-of-type{
+        color: rgb(50, 168, 82);
+        background-color: white;
+      }
+      #opciones .prestar option:last-of-type{
+        color: hsl(134, 71%, 21%);
+        background-color: white;
+      }
+      #opciones .preguntar[label="Preguntar Dudas"]{
+        background-color: #a154ab
+      }
+      #opciones .preguntar option:nth-of-type(1){
+        color: rgba(181, 112, 174, 1);
+        background-color: white;
+      }
+      #opciones .preguntar option:nth-of-type(2){
+        color: #c71eb6;
+        background-color: white;
+      }
+      .boton{
+        color: #fff;
+        background-color: #69a832;
+        font-family: 'Pirata One', cursive;
+        font-size: 1.8em;
+        width: 8.5em;
+        height: 2.2em;
+        border: 3px solid #5a7d20;
+        cursor: pointer;
+      }
+      .boton:hover{
+        background-color: #58c41d;
+      }
+      p.enfasis{
+        font-family: rockwell;
+        text-indent: 1.1em;
+        line-height: 1em;
+        text-align: left;
+        margin-top: 2em;
+      }
+      .aviso{
+        text-decoration: underline;
+        letter-spacing: 0.2em;
+        text-shadow: 2px 2px 7px #0447b8;
+      }
+  .papeles{
+    width: 30em;
+    height: 36em;
+    padding-top: 1em;
+    margin-right: 1.1em;
+    object-fit: cover;
+    object-position: center;
+ }
 
 /* Publicidad */
 .publicidad {
@@ -174,13 +213,18 @@ img {
     }
 
 /* Nuestro Equipo */
+.tanda{
+  background-color: #2799db;
+}
 h4{
   font-size: 4em;
   text-align: center;
+  margin-top: -0.05em;
 }
 .primera_tanda{
   display: flex;
   justify-content: space-around;
+  margin-top: -4em;
 }
 .primerProgramador{
   width: 30em;
