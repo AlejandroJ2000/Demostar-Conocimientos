@@ -38,41 +38,45 @@
       </p>
     </aside>
 
-    <form id="formulario_registro" action="www.FansDeProgramación.com" method="post">
-      <h3> Crear un nuevo usuario </h3>
-      <p> Ingrese su nombre de usuario: </p>
-      <input type="text" class="nombreUsuario" name="nombre_del_usuario" placeholder="Nombre (entre 6 y 14 caracteres)" minlength="6" maxlength="14" size="30" autofocus required /> <br />
-      <p> Ingrese su contraseña: </p>
-      <input type="password" class="contraseñaUsario" name="contraseña_del_usuario" placeholder="Contraseña (entre 5 y 12 caracteres)" minlength="5" maxlength="12" size="30" required /> <br />
-      <p> Confirme su contraseña: </p>
-      <input type="password" class="confirmacionUsuario" name="confirmacion_del_usuario" placeholder="Confirmación" minlength="5" maxlength="12" size="30" required /> <br />
-      <p> Ingrese su E-Mail: </p>
-      <input type="email" class="emailUsuario" name="email_del_usuario" placeholder="mi.mail@gmail.com" size="30" required /> <br />
-      <p> Ingrese su edad <span class="opcional"> (opcional) </span>: </p>
-      <input type="number" name="edad_usuario" placeholder="Edad" min="3" max="110" /> <br />
-      <p> ¿Qué espera de nuestra página? <span class="opcional"> (opcional) </span> </p>
-      <select id="opciones">
-        <optgroup class="prestar" label="Prestar Ayuda">
-          <option value="resolver_dudas"> Responder a las dudas que surgan del grupo </option>
-          <option value="mentorear"> Encontrar gente a la cual guiar en su aprendizaje </option>
-        </optgroup>
-        <optgroup class="preguntar" label="Preguntar Dudas">
-          <option value="hacer_preguntas"> Hacer preguntas puntuales sobre cierto temas </option>
-          <option value="pedir_enseñanza"> Pedir guías sobre temas generales (lenguajes, etc.) </option>
-        </optgroup>
-      </select> <br /> <br />
-      <input type="submit" value="Registrarse" class="boton"> <br />
-      <p class="enfasis"> Una vez enviado el registro, verifique su e-mail para ver si llego la confimación. </p> <br/>
-      <ul class="publicidad">
-        <h3> Publicidad: </h3>
-        <li class="publicidad-lista"> <a> <i class="fas fa-futbol" class="futbolin"></i> Futbolín S.A. </a> </li>
-        <li class="publicidad-lista"> <a> <i class="fas fa-blender" class="fabrimundo"></i> Fabrimundo </a> </li>
-        <li class="publicidad-lista"> <a> <i class="fas fa-coffee" class="cafe"></i> Café Gimenez </a> </li>
-        <li class="publicidad-lista"> <a> <i class="fab fa-playstation" class="play"></i> Playstation 5 </a> </li>
-        <input type="submit" value="Apartar" class="dismiss">
-      </ul>
-    </form>
+    <h3> Crear un nuevo usuario </h3>
+    <article id="formulario">
+      <form id="formulario_registro" action="www.FansDeProgramación.com" method="post">
+        <p> Ingrese su nombre de usuario: </p>
+        <input type="text" class="nombreUsuario" name="nombre_del_usuario" placeholder="Nombre (entre 6 y 14 caracteres)" minlength="6" maxlength="14" size="30" autofocus required /> <br />
+        <p> Ingrese su contraseña: </p>
+        <input type="password" class="contraseñaUsario" name="contraseña_del_usuario" placeholder="Contraseña (entre 5 y 12 caracteres)" minlength="5" maxlength="12" size="30" required /> <br />
+        <p> Confirme su contraseña: </p>
+        <input type="password" class="confirmacionUsuario" name="confirmacion_del_usuario" placeholder="Confirmación" minlength="5" maxlength="12" size="30" required /> <br />
+        <p> Ingrese su E-Mail: </p>
+        <input type="email" class="emailUsuario" name="email_del_usuario" placeholder="mi.mail@gmail.com" size="30" required /> <br />
+        <p> Ingrese su edad <span class="opcional"> (opcional) </span>: </p>
+        <input type="number" name="edad_usuario" placeholder="Edad" min="3" max="110" /> <br />
+        <p> ¿Qué espera de nuestra página? <span class="opcional"> (opcional) </span> </p>
+        <select id="opciones">
+          <optgroup class="prestar" label="Prestar Ayuda">
+            <option value="resolver_dudas"> Responder a las dudas que surgan del grupo </option>
+            <option value="mentorear"> Encontrar gente a la cual guiar en su aprendizaje </option>
+          </optgroup>
+          <optgroup class="preguntar" label="Preguntar Dudas">
+            <option value="hacer_preguntas"> Hacer preguntas puntuales sobre cierto temas </option>
+            <option value="pedir_enseñanza"> Pedir guías sobre temas generales (lenguajes, etc.) </option>
+          </optgroup>
+        </select> <br /> <br />
+        <input type="submit" value="Registrarse*" class="boton"> <br />
+      </form>
+      <img src="img/registro.jpg" class="papeles" alt="Imágen de registro" />
+    </article>
+    <p class="enfasis"> *Una vez enviado el registro, verifique su e-mail para ver si llego la confimación. </p> <br/>
+    <ul class="publicidad">
+      <h3> Publicidad: </h3>
+      <li class="publicidad-lista"> <a> <i class="fas fa-futbol" class="futbolin"></i> Futbolín S.A. </a> </li>
+      <li class="publicidad-lista"> <a> <i class="fas fa-blender" class="fabrimundo"></i> Fabrimundo </a> </li>
+      <li class="publicidad-lista"> <a> <i class="fas fa-coffee" class="cafe"></i> Café Gimenez </a> </li>
+      <li class="publicidad-lista"> <a> <i class="fab fa-playstation" class="play"></i> Playstation 5 </a> </li>
+      <input type="submit" value="Apartar" class="dismiss">
+    </ul>
 
+  <div class="tanda">
     <h4> Nuestro equipo de programadores: </h4>
     <div class="primera_tanda">
       <img src="img/programador_3.jpeg" class="primerProgramador" alt="Pepe Pepín" />
@@ -82,6 +86,7 @@
       <img src="img/programador_1.jpg" class="tercerProgramador" alt="Roberto Bolanos" />
       <img src="img/programador_4.jpg" class="cuartoProgramador" alt="Tito Baratito" />
     </div>
+  </div>
 
     <footer id="extra">
       <br />
