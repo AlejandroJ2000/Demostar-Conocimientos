@@ -206,7 +206,7 @@ h4{
   justify-content: space-around;
   margin-top: -4em;
 }
-.primer_imagen{
+.primer_imagen, .segunda_imagen, .tercera_imagen, .cuarta_imagen{
   position: relative;
 }
 .primerProgramador{
@@ -216,9 +216,8 @@ h4{
   border: solid rgb(235, 64, 52) 4px;
   object-fit: cover;
   object-position: left;
-  color: red;
 }
-  .overlay{
+  .overlay_1{
     position: absolute;
     top: 0;
     left: 0;
@@ -233,15 +232,15 @@ h4{
     transition-property: opacity;
     transition-duration: 0.5s;
   }
-  .overlay h3{
+  .overlay_1 h3{
     font-size: 5em;
   }
-  .overlay p{
+  .overlay_1 p{
     margin-left: 10px;
     margin-top: -40px;
     font-size: 1.5em;
   }
-  .overlay:hover{
+  .overlay_1:hover{
     opacity: 1;
   }
 .segundoProgramador{
@@ -251,6 +250,39 @@ h4{
   object-fit: cover;
   object-position: center;
 }
+  .overlay_2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    background-color: #f01d1d;
+    color: #fff;
+    font-family: 'Pirata One', cursive;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  .overlay_2 h3{
+    font-size: 5em;
+  }
+  .overlay_2 p{
+    margin-left: 10px;
+    margin-top: -40px;
+    font-size: 1.5em;
+  }
+  .overlay_2:hover{
+      opacity: 1;
+  }
+  .overlay_2 > * {
+    transform: translateY(50px);
+    transition: transform 0.5s;
+  }
+  .overlay_2:hover > * {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 .segunda_tanda{
   display: flex;
   justify-content: space-around;
@@ -263,12 +295,72 @@ h4{
   border: solid rgb(235, 64, 52) 4px;
   object-fit: cover;
 }
+.overlay_3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99%;
+  backdrop-filter: blur(0px);
+  color: #fff;
+  font-family: 'Pirata One', cursive;
+  text-align: center;
+  cursor: pointer;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+}
+.overlay_3 h3{
+  font-size: 5em;
+}
+.overlay_3 p{
+  margin-left: 10px;
+  margin-top: -40px;
+  font-size: 1.5em;
+}
+.overlay_3:hover{
+  opacity: 1;
+  backdrop-filter: blur(3px);
+}
 .cuartoProgramador{
   width: 30em;
   height: 20em;
   border: solid rgb(235, 64, 52) 4px;
   object-fit: cover;
   object-position: right;
+}
+.overlay_4{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99%;
+  background-color: #1df075;
+  color: #000;
+  font-family: 'Pirata One', cursive;
+  text-align: center;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.overlay_4 h3{
+  font-size: 5em;
+}
+.overlay_4 p{
+  margin-left: 10px;
+  margin-top: -40px;
+  font-size: 1.5em;
+}
+.overlay_4:hover{
+    opacity: 1;
+}
+.overlay_4 > * {
+  transform: translateY(-50px);
+  transition: transform 0.5s;
+}
+.overlay_4:hover > * {
+  transform: translateY(0px);
+  opacity: 1;
 }
 .flexbox div{
   background-color: #258;
