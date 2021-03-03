@@ -23,4 +23,4 @@ for(i = 1; i < 10; i++){
   fragment.appendChild(camasVenta);
 }
 
-contenedorGeneral.appendChild(fragment)
+contenedorGeneral.appendChild(fragment);
