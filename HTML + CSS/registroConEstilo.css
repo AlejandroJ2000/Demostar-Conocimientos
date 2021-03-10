@@ -6,7 +6,7 @@
   scroll-behavior: smooth;
 }
 body{
-  background-color: #f9caa7
+  background-color: #75d3b6;
 }
 a:link {
   text-decoration: none;
@@ -27,20 +27,20 @@ ul {
     display: inline;
   }
   .linksAcceso a{
-    background-color: #751e0d;
+    background-color: #215c49;
     color: #FFFFFF;
     border: 1px solid black;
     font-size: 20px;
     float: none;
   }
   .linksAcceso a:hover{
-    background-color: #f7584d;
+    background-color: #39a987;
   }
 
 /* Títulos del Encabezado */
 #tituloPagina{
-  color: navy;
-  background-color: #2ab7ca;
+  color: #000000;
+  background-color: #2d8268;
   font-family: Georgia, "Times New Roman", sans-serif;
   text-align: center;
   white-space: normal;
@@ -96,7 +96,7 @@ h3{
   margin-left: 17em;
   display: flex;
   justify-content: space-around;
-  background-color: #0a64c4;
+  background-color: #39a987;
 }
   #formulario_registro{
     text-align: center;
@@ -130,7 +130,7 @@ h3{
       font-family: Courier New;
     }
     #opciones .prestar[label]{
-      background-color: #8ced0e
+      background-color: #75d3b6;
     }
       #opciones .prestar option:first-of-type{
         color: rgb(50, 168, 82);
@@ -141,7 +141,7 @@ h3{
         background-color: white;
       }
       #opciones .preguntar[label="Preguntar Dudas"]{
-        background-color: #a154ab
+        background-color: #2d8268;
       }
       #opciones .preguntar option:nth-of-type(1){
         color: rgba(181, 112, 174, 1);
@@ -153,17 +153,17 @@ h3{
       }
       .boton{
         color: #fff;
-        background-color: #69a832;
+        background-color: #215c49;
         font-family: 'Pirata One', cursive;
         font-size: 1.8em;
         width: 8.5em;
         height: 2.2em;
-        border: 3px solid #5a7d20;
+        border: 3px solid #234a34;
         cursor: pointer;
       }
       .boton:hover{
-        background-color: #58c41d;
-        border: 3px solid #69a832;
+        background-color: #3e7563;
+        border: 3px solid #346354;
       }
       p.enfasis{
         font-family: rockwell;
@@ -184,8 +184,8 @@ h3{
         text-shadow: 2px 2px 7px #0447b8;
       }
   .papeles{
-    width: 28em;
-    height: 36em;
+    width: 450px;
+    height: 570px;
     padding-top: 1em;
     margin-right: -0.7em;
     object-fit: cover;
@@ -194,7 +194,7 @@ h3{
 
 /* Nuestro Equipo */
 .tanda{
-  background-color: #2799db;
+  background-color: #215c49;
 }
 h4{
   font-size: 4em;
@@ -213,7 +213,7 @@ h4{
   width: 30em;
   filter: none;
   height: 20em;
-  border: solid rgb(235, 64, 52) 4px;
+  border: solid #39a987 4px;
   object-fit: cover;
   object-position: left;
 }
@@ -246,7 +246,7 @@ h4{
 .segundoProgramador{
   width: 30em;
   height: 20em;
-  border: solid rgb(235, 64, 52) 4px;
+  border: solid #39a987 4px;
   object-fit: cover;
   object-position: center;
 }
@@ -292,7 +292,7 @@ h4{
 .tercerProgramador{
   width: 30em;
   height: 20em;
-  border: solid rgb(235, 64, 52) 4px;
+  border: solid #39a987 4px;
   object-fit: cover;
 }
 .overlay_3{
@@ -325,7 +325,7 @@ h4{
 .cuartoProgramador{
   width: 30em;
   height: 20em;
-  border: solid rgb(235, 64, 52) 4px;
+  border: solid #39a987 4px;
   object-fit: cover;
   object-position: right;
 }
@@ -391,12 +391,14 @@ h4{
   }
   .ayuda-grid-verde{
     background-color: rgb(10, 240, 33);
+    filter: saturate(68%);
   }
   .ayuda-grid-rojo{
     background-color: rgb(240, 10, 10);
+    filter: saturate(68%);
   }
 
-/* Aclaraciones y Publicidad */
+/* Aclaraciones */
 #extra{
   margin: 0px;
   padding: 0px;
