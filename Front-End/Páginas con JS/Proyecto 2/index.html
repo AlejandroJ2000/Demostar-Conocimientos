@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="master.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <title> Venta de sillones </title>
+  </head>
+  <body>
+    <article class="flex-container">
+     <div class="flex-item">
+       <img src="img/chairImage3.png" alt="Blue Armchair Image" class="armChair" />
+       <div class="flex-item__arrows">
+         <img src="svg/group-81.svg" class="flex-item__arrows_arrow" id="leftArrowChange"></img>
+         <img src="svg/group-81.svg" class="flex-item__arrows_arrow" id="rightArrowChange"></img>
+         <!--
+          Entiendo que usar "class" e "id" en la misma etiqueta está más que mal, pero por alguna razón sacar el id hace que muchas funcionalidades se estropeen.
+         -->
+       </div>
+     </div>
+     <div class="flex-item">
+       <h1> Nuvo Armchair </h1>
+       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+       <div class="flex-item__colors">
+         <img src="svg/ellipse-0.svg" class="flex-item__colors__object"></object>
+         <img src="svg/ellipse-1.svg" class="flex-item__colors__object"></object>
+         <img src="svg/ellipse-1.svg" class="flex-item__colors__object"></object>
+         <img src="svg/ellipse-3.svg" class="flex-item__colors__object"></object>
+       </div>
+       <form class="flex-item__price" action="www.freeMarket.com">
+         <h2> $1,599 </h2>
+         <input type="submit" value="Add to cart" />
+       </form>
+     </div>
+    </article>
+    <script src="code.js"></script>
+  </body>
+</html>
