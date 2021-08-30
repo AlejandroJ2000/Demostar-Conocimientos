@@ -4,6 +4,13 @@ Veamos un ejemplo:
 "Función recibida:
 arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"])
 Devuelve:
+
+
+
+
+
+
+
    32      3801      45      123
 + 698    -    2    + 43    +  49
 -----    ------    ----    -----
