@@ -1,0 +1,19 @@
+@media screen and (min-width: 1199px) and (max-width: 1299px) {
+    article ul{
+        margin: 0px 300px;
+    }
+    aside{
+        margin: 0px 320px;
+    }
+}
+@media screen and (min-width: 999px) and (max-width: 1198px) {
+    article ul{
+        margin: 0px 200px;
+    }
+    aside{
+        margin: 0px 220px;
+    }
+    #image{
+        width: 95%;
+    }
+}
