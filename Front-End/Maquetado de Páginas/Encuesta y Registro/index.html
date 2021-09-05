@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A survay form page that allow users to give more information about their profile to the web page.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Survey Form</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <h2 id="description">Thank you for taking the time to help us improve the platform</h2>
+    </header>
+    <form action="www.myWebPage.com" method="post" id="survey-form">
+        <div class="formEntry">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required autofocus />
+        </div>
+        <div class="formEntry">
+            <label for="mail" id="email-label">Email</label>
+            <input type="email" name="mail" id="email" placeholder="Enter your Email" required />
+        </div>
+        <div class="formEntry">
+            <label for="age" id="number-label">Age(optional)</label>
+            <input type="number" name="age" id="number" placeholder="Age" min="15" max="100" />
+        </div>
+        <div class="formEntry">
+            <label for="role">Which option best describes your current role?</label> 
+            <select name="role" id="dropdown">
+                <option value="value0" disabled selected> Select Current role</option>
+                <option value="value1">Student</option>
+                <option value="value2">Full Time Job</option>
+                <option value="value3">Full Time Learner</option>
+                <option value="value4">Prefer not to say</option>
+                <option value="value5">Other</option>
+            </select>
+        </div>
+        <div class="formEntry">
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <span class="multipleChoice">
+                <input type="radio" name="circleOption" id="firstCircleOption" checked="checked" text="Definitely" />
+                <label for="firstCircleOption">Definitely</label>
+            </span>
+            <span class="multipleChoice">
+                <input type="radio" name="circleOption" id="secondCircleOption" text="Maybe"/>
+                <label for="secondCircleOption">Maybe</label>
+            </span>
+            <span class="multipleChoice">
+                <input type="radio" name="circleOption" id="thirdCircleOption" text="Not sure"/>
+                <label for="thirdCircleOption">Not sure</label>
+            </span>
+        </div>
+        <div class="formEntry">
+            <label for="favorite">What is your favorite feature of freeCodeCamp?</label> 
+            <select name="favorite" id="favoriteFeature">
+                <option value="value0" disabled selected>Select an option</option>
+                <option value="value1">Challenges</option>
+                <option value="value2">Projects</option>
+                <option value="value3">Community</option>
+                <option value="value4">Open Source</option>
+            </select>
+        </div>
+        <div class="formEntry">
+            <p>What would you like to see improved? (Check all that apply)</p>
+            <span class="multipleChoice">
+                <input type="checkbox" name="firstSquareOption" id="firstSquareOption" value="value" />
+                <label for="firstSquareOption">Front-end Projects</label>
+            </span>
+            <span class="multipleChoice">
+                <input type="checkbox" name="secondSquareOption" id="secondSquareOption" value="value" />
+                <label for="secondSquareOption">Back-end Projects</label>
+            </span>
+            <span class="multipleChoice">
+                <input type="checkbox" name="thirdSquareOption" id="thirdSquareOption" value="value" />
+                <label for="thirdSquareOption">Data Visualization</label>
+            </span>
+            <span class="multipleChoice">
+                <input type="checkbox" name="fourthSquareOption" id="fourthSquareOption" value="value" />
+                <label for="fourthSquareOption">Challenges</label>
+            </span>
+            <span class="multipleChoice">
+                <input type="checkbox" name="FifthSquareOption" id="fifthSquareOption" value="value" />
+                <label for="fifthSquareOption">Open Source Community</label>
+            </span>
+            <span class="multipleChoice">
+                <input type="checkbox" name="sixthSquareOption" id="sixthSquareOption" value="value" />
+                <label for="sixthSquareOption">Gitter help rooms</label>
+            </span>
+            <span class="multipleChoice">
+                <input type="checkbox" name="seventhSquareOption" id="seventhSquareOption" value="value" />
+                <label for="seventhSquareOption">Videos</label>
+            </span>
+            <span class="multipleChoice">
+                <input type="checkbox" name="eighthSquareOption" id="eigthSquareOption" value="value" />
+                <label for="eigthSquareOption">City Meetups</label>
+            </span>
+            <span class="multipleChoice">
+                <input type="checkbox" name="ninethSquareOption" id="ninethSquareOption" value="value" />
+                <label for="ninethSquareOption">Wiki</label>
+            </span>
+            <span class="multipleChoice">
+                <input type="checkbox" name="tenthSquareOption" id="tenthSquareOption" value="value" />
+                <label for="tenthSquareOption">Forum</label>
+            </span>
+            <span class="multipleChoice">
+                <input type="checkbox" name="eleventhSquareOption" id="eleventhSquareOption" value="value" />
+                <label for="eleventhSquareOption">Additional Courses</label>
+            </span>
+        </div>
+        <div class="formEntry">
+            <p>Any comments or suggestions?</p>
+            <textarea rows="8" cols="80" placeholder="Enter your comment here..."></textarea>
+            <button name="submitButton" id="submit" value="Submit"> Submit </button>
+        </div>
+    </form>
+</body>
+</html>

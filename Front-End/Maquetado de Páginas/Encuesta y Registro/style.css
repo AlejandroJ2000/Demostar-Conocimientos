@@ -1,0 +1,100 @@
+body{
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(58, 58, 158, 0.8)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg); 
+    background-size: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    text-align: center;
+}
+header h1{
+    font-size: 2em;
+    color: white;
+    font-weight: 400;
+    margin-top: 1em;
+    margin-bottom: -0.15em;
+    opacity: 0.9;
+}
+#description{
+    font-size: 1.1rem;
+    font-family: 'Source Code Pro', monospace;
+    word-spacing: -1.1mm;
+    color: white;
+    opacity: 0.7;
+}
+form{
+    text-align: center;
+    background-color: #20203b;
+    opacity: 0.85;
+    margin: 1.9em 20em -1em 20em;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+form .formEntry{
+    display: flex;
+    flex-direction: column;
+    margin: 1.4em 2.5em 0em 2.5em;
+}
+.formEntry:first-child{
+    padding-top: 2em;
+}
+.formEntry label, p{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 300;
+    margin-bottom: 0.3em;
+    text-align: left;
+}
+.formEntry input, select, textarea{
+    height: 1.9em;
+    filter: brightness(1.1);
+    font-family: 'roboto', sans-serif;
+    font-size: 1.08em;
+    color: #292d31;
+    font-weight: 450;
+}
+.formEntry input::placeholder{
+    color: #636363;
+}
+.formEntry input:focus{
+    outline: none;
+    border: 3px solid #282869;
+    height: 2em;
+}
+.formEntry select{
+    height: 2em;
+}
+.formEntry p{
+    margin-bottom: -0.1em;
+    margin-top: 0.7em;
+}
+.multipleChoice{
+    text-align: left;
+    margin-bottom: -0.5em;
+}
+.multipleChoice input{
+    width: 1.3em;
+    cursor: pointer;
+}
+.multipleChoice label{
+    position: relative;
+    bottom: 0.5em;
+    cursor: pointer;
+}
+.formEntry:last-of-type textarea{
+    min-height: 7.5em;
+    padding: 0.625rem;
+    margin: 0.7em 0em 2em 0em;
+}
+.formEntry:last-of-type button{
+    color: white;
+    background-color: #1cb857;
+    filter: none;
+    border: none;
+    font-family: 'roboto', sans-serif;
+    font-size: 1.08em;
+    padding: 0.75rem;
+    margin-bottom: 4em;
+    min-height: 2.8em;
+    cursor: pointer;
+}
