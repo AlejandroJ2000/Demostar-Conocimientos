@@ -1,0 +1,49 @@
+body{
+    display: grid;
+    grid-template-columns: 285px 1100px;
+    font-family: 'Open Sans', Arial;
+}
+nav{
+    border-right: 3px solid grey;
+    margin-top: -10px;
+    margin-left: -8px;
+}
+main{
+    padding-left: 50px;
+    margin-bottom: -100px;
+}
+nav h1{
+    font-size: 1.8em;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px 0px;
+}
+nav a{
+    text-decoration: none;
+    color: #4d4e53;
+    padding: 0px 30px;
+    font-size: 1em;
+}
+#introduction h2{
+    margin-top: 30px;
+}
+.main-section h2{
+    font-size: 1.7em;
+    font-weight: 400;
+    margin-left: -15px;
+    color: black;
+    margin-bottom: -3px;
+}
+.main-section{
+    font-size: 0.95em;
+    color: #4d4e53;
+}
+.main-section ul{
+    padding-left: 50px;
+}
+.main-section code{
+    background-color: #f7f7f7;
+    width: 800px;
+    display: block;
+    height: 50px;
+}
