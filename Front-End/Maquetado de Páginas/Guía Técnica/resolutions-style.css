@@ -1,0 +1,5 @@
+@media screen and (min-width: 999px) and (max-width: 1300px) {
+    body{
+        grid-template-columns: 285px 890px;
+    }
+}
