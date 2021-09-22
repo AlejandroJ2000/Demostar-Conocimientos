@@ -1,0 +1,233 @@
+#navbar{
+    background-color: #be3144;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    justify-content: flex-end;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    z-index: 10;
+}
+#navbar a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+#navbar a:hover{
+    color: #483973;
+}
+#welcome-section{
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -8px;
+    width: 89.0625em;
+    height: 100vh;
+    color: white;
+}
+h1{
+    font-size: 4.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+#welcome-section h2{
+    font-size: 2.8rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #be3144;
+}
+#projects{
+    height: 168vh;
+    display: block;
+    text-align: center;
+    margin-left: -8px;
+    width: 1425px;
+    background-color: #45567d;
+}
+#projects h3{
+    display: inline-block;
+    color: white;
+    padding: 50px 20px 0px 20px;
+    border-bottom: 1.5px solid white;
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    opacity: 0.9;
+}
+#projects h4{
+    margin-top: -5px;
+    font-size: 1.7rem;
+    font-family: 'Poppins', sans-serif;
+    color: #fc9803;
+}
+#projects h4:last-of-type{
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.grid-projects{
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+    grid-column-gap: 40px;
+    justify-content: center;
+}
+.grid-projects:first-of-type{
+    margin-top: -10px;
+}
+.div-image{
+    width: 380px;
+    height: 350px;
+}
+.project-tile{
+    background-color: #303841;
+}
+a{
+    text-decoration: none;
+}
+.project-tile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#guidePage{
+    object-position: left;
+}
+.imageLabel{
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1.2em;
+}
+.hidden{
+    opacity: 0;
+    color: #fc9803;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+a:hover .hidden{
+    opacity: 1;
+}
+a button{
+    cursor: pointer;
+    margin-top: 50px;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #303841;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    opacity: 0.9;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+}
+a button::after{
+    content: " >";
+    font-size: 1.5rem;
+    word-spacing: 0em;
+}
+a:hover button{
+    background-color: #be3144;
+}
+a:hover button::after{
+    animation-name: rightMovement;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+@keyframes rightMovement{
+    100%{
+        word-spacing: 0.25em;
+    }
+}
+#contact{
+    background-color: #303841;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -8px;
+    width: 1425px;
+    height: 80vh;
+}
+#contact h1{
+    color: white;
+    font-size: 4.3em;
+    margin-top: -120px;
+}
+#contact p{
+    margin-top: -50px;
+    font-size: 1.2em;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    color: white;
+    opacity: 0.7;
+}
+#contact-links{
+    margin-top: 50px;
+}
+#contact-links a{
+    padding: 0px 70px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    color: white;
+}
+#contact-links a:first-of-type{
+    padding: 0px 60px;
+}
+#contact-links a:last-of-type{
+    padding: 0px 40px;
+}
+#contact-links a:hover{
+    animation-name: downMovement;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+@keyframes downMovement{
+    100%{
+        color: #be3144;
+    }
+}
+i{
+    padding: 0px 10px;
+}
+footer{
+    background-color: #303841;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 4px solid #be3144;
+    margin-left: -8px;
+    margin-bottom: -10px;
+    width: 1425px;
+    height: 11.2vh;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1.1em;
+}
+@media screen and (max-width: 1300px) {
+    #navbar{
+        width: 1170px;
+    }
+    #welcome-section{
+        width: 1250px;
+    }
+    #projects{
+        width: 1150px;
+        height: 185vh;
+    }
+    .grid-projects{
+        grid-template-columns: 300px 300px 300px;
+    }
+    .div-image{
+        width: 300px;
+    }
+    #contact{
+        width: 1200px;
+    }
+    footer{
+        width: 1200px;
+    }
+}
